@@ -31,6 +31,7 @@ import {
 import churnDashboard from "../assets/churn-dashboard.jpeg";
 import novaeraDashboard from "../assets/novaera-dashboard.png";
 import novashopDashboard from "../assets/novashop-dashboard.jpeg";
+import profilePhoto from "../assets/profile-leticia.jpeg";
 
 const email = "leticiafelixdf@outlook.com";
 const linkedinDisplay = "linkedin.com/in/leticiafelix0";
@@ -689,7 +690,9 @@ function Header({ activeSection, navOpen, scrolled, setNavOpen }) {
   return (
     <header className={`site-header${scrolled ? " scrolled" : ""}`}>
       <a className="brand" href="#inicio" aria-label="Voltar ao início" onClick={() => setNavOpen(false)}>
-        <span className="brand-mark">LF</span>
+        <span className="brand-mark" aria-hidden="true">
+          <img src={profilePhoto} alt="" />
+        </span>
         <span>
           <strong>Letícia Felix</strong>
           <small>Data Analytics & BI</small>
@@ -806,7 +809,7 @@ function IntroBand() {
       <div className="section-inner intro-grid">
         <div className="profile-panel" data-reveal>
           <div className="avatar" aria-label="Letícia Felix">
-            LF
+            <img src={profilePhoto} alt="Foto de Letícia Felix" />
           </div>
           <div>
             <p className="eyebrow">Sobre mim</p>
