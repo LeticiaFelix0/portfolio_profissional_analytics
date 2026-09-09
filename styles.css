@@ -560,7 +560,9 @@ main section[id] {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 50% 28%;
+  object-position: 50% 40%;
+  transform: scale(1.55);
+  transform-origin: center;
 }
 
 .profile-panel h2 {
