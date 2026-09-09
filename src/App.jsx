@@ -29,6 +29,7 @@ import {
 } from "lucide-react";
 
 import churnDashboard from "../assets/churn-dashboard.jpeg";
+import novaeraDashboard from "../assets/novaera-dashboard.png";
 import novashopDashboard from "../assets/novashop-dashboard.jpeg";
 
 const email = "leticiafelixdf@outlook.com";
@@ -357,7 +358,7 @@ const projects = [
     category: "Campanhas e desempenho",
     title: "Agência Nova Era",
     technologies: ["Excel", "SQL", "MySQL", "Power BI"],
-    image: null,
+    image: novaeraDashboard,
     imageAlt: "Painel operacional da Agência Nova Era",
     cardAlt: "Visual gerencial da Agência Nova Era com campanhas, clientes e desempenho",
     openNotice: "Link do projeto Agência Nova Era ainda não foi informado.",

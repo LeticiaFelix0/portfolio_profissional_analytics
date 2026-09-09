@@ -1249,8 +1249,9 @@ main section[id] {
   width: 100%;
   height: 100%;
   min-height: 390px;
-  object-fit: cover;
+  object-fit: contain;
   opacity: 0.9;
+  background: #050b12;
   transition: opacity 180ms ease, transform 260ms ease;
 }
 
@@ -1846,7 +1847,11 @@ main section[id] {
   width: 100%;
   height: 100%;
   min-height: 410px;
-  object-fit: cover;
+}
+
+.modal-shell img {
+  object-fit: contain;
+  background: #050b12;
 }
 
 .modal-content {
